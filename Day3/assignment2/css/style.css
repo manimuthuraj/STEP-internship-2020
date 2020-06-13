@@ -1,0 +1,64 @@
+body {
+    background-color: #f5d9d5;
+    font-family: sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(95, 24, 30);
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: rgb(30, 30, 34);
+}
+
+#mainNavbar .nav-link:hover {
+    background-color: rgb(248, 8, 8);
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#heading span {
+    color: #EA1C2C;
+}
+
+@media (max-width: 1200px) {
+    #heading h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+h1 {
+    color: black;
+}
+
+.bl h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.bl p {
+    color: #6943f3;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled {
+    background: rgba(177, 38, 177, 0.897);
+    transition: background 500ms;
+}

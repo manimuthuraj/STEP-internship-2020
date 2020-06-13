@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+</head>
+
+<body>
+
+    <h1>Register</h1>
+    <form>
+        <label>First Name: <input type="text" placeholder="First" required="" name="First"></label>
+        <label>Last Name: <input type="text" placeholder="Last" required="" name="Last"></label><br>
+
+        <label>Email: <input type="email" placeholder="Email" required="" name="Email"></label>
+        <label>Password: <input type="password" placeholder="Password" required="" name="password" minlength="4" maxlength="8"></label><br>
+
+
+
+        <label> Male<input type="radio" name="Gender" value="Male"> </lable>
+        <label> Female<input type="radio" name="Gender" value="Female"> </lable>
+        <label> Others<input type="radio" name="Gender" value="Others"> </lable><br>
+
+        <p>Birthday:</p>
+        <select name="Month">
+			<option>Month</option>
+			<option>jan</option>
+			<option>feb</option>
+		</select>
+
+        <select name="Day">
+			<option>Day</option>
+			<option>01</option>
+			<option>02</option>
+		</select>
+
+        <select name="year">
+			<option>year</option>
+			<option>1999</option>
+			<option>2000</option>
+		</select>
+        <p>I agree to the treams <input type="checkbox"> </p>
+        <input type="submit" name="">
+    </form>
+
+</body>
+
+</html>

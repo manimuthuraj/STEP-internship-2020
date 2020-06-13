@@ -1,0 +1,23 @@
+table {
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.ver {
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+}
+
+.hor {
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}

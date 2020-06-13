@@ -1,0 +1,30 @@
+body {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 10px gray solid;
+    font-family: Source Sans Pro;
+}
+
+h2 {
+    width: 50px;
+}
+
+.boder {
+    border-left: 5px blue solid;
+    padding-left: 5px;
+}
+
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h5 {
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
